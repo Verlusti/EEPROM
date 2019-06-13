@@ -148,7 +148,7 @@ struct EEPROMClass{
     
     void start(){
     for (byte k=0;k<4;k++)
-        eeprom_array[0].begin();
+        eeprom_array[k].begin();
     }
     
 };
